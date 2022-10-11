@@ -1,10 +1,10 @@
 import Calculadora.Calculate
 import Fatorial.Fatorial
+import FormatString.FormatString
 
 fun main(args: Array<String>) {
     println(args.joinToString())
-
-    fatorial()
+    formatString()
 }
 
 
@@ -22,4 +22,9 @@ private fun fatorial() {
     val fatorial = Fatorial()
     val result = fatorial.makeFatorialWithRecursividade(5)
     println("O resultado sem fatorial e: $result")
+}
+
+private fun formatString(){
+    val format = FormatString()
+    println(format.formatString("Carlos.albert0"))
 }
