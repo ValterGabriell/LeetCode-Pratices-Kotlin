@@ -43,5 +43,19 @@ class FormatString {
         return stringFinal
     }
 
+    fun removingCharacter(str: String, valueToBeRemoved: Any?): String {
+
+        val charArray = str.toCharArray()
+        val newString = arrayListOf<Char>()
+        charArray.map {
+            if (it != valueToBeRemoved) {
+                newString.add(it)
+            }
+        }
+
+        return String(newString.toCharArray())
+
+    }
+
 
 }

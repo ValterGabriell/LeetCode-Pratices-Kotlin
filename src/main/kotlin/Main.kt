@@ -1,10 +1,11 @@
+import Agiota.CalculandoValorAluguel
 import Calculadora.Calculate
 import Fatorial.Fatorial
 import FormatString.FormatString
 
 fun main(args: Array<String>) {
     println(args.joinToString())
-    formatString()
+    aluguelAgiota()
 }
 
 
@@ -24,7 +25,15 @@ private fun fatorial() {
     println("O resultado sem fatorial e: $result")
 }
 
-private fun formatString(){
+private fun formatString() {
     val format = FormatString()
-    println(format.formatString("Carlos.albert0"))
+    val primeiraFuncao = format.formatString("Carlos.albert0")
+    val segundaFuncao = format.removingCharacter("Sherlock221b@", '2')
+    println(segundaFuncao)
+}
+
+private fun aluguelAgiota() {
+    val aluguel = CalculandoValorAluguel()
+    val result = aluguel.calculandoValorAluguel(valorAlguel = 1680.0, diasAtraso = 18)
+    println(result)
 }
