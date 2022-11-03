@@ -1,13 +1,24 @@
 import Agiota.CalculandoValorAluguel
 import Calculadora.Calculate
+import Calculadora.NumerosPrimos
 import Fatorial.Fatorial
 import FormatString.FormatString
+import Funcionario.Funcionario
 
 fun main(args: Array<String>) {
-    println(args.joinToString())
-    aluguelAgiota()
+    numeroPrimo()
 }
 
+
+private fun numeroPrimo(){
+    val numerosPrimos = NumerosPrimos()
+    numerosPrimos.numeroPrimo(4)
+}
+
+private fun funcionario(){
+    val funcionario = Funcionario()
+    funcionario.makeItWork()
+}
 
 private fun calculadora() {
     val calculate = Calculate()
