@@ -3,12 +3,24 @@ import Calculadora.Calculate
 import Calculadora.NumerosPrimos
 import Fatorial.Fatorial
 import FormatString.FormatString
+import FormatString.Palindole.IMyInterfaceImpl
+import FormatString.Palindole.Palidolia
 import Funcionario.Funcionario
 
 fun main(args: Array<String>) {
-    numeroPrimo()
+    val impl = IMyInterfaceImpl()
+    val result = palidrome(impl, "neymar")
+    if (result){
+        println("A palavra eh palindrome")
+    }else{
+        println("A palavra nao eh palindrome")
+    }
 }
 
+private fun palidrome(impl: IMyInterfaceImpl, str:String) : Boolean{
+    val apn = Palidolia(impl)
+    return apn.iss(str)
+}
 
 private fun numeroPrimo(){
     val numerosPrimos = NumerosPrimos()
