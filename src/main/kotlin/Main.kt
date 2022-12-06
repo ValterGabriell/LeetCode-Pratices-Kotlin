@@ -6,16 +6,44 @@ import FormatString.FormatString
 import FormatString.Palindole.IMyInterfaceImpl
 import FormatString.Palindole.Palidolia
 import Funcionario.Funcionario
+import HackerHank.AliceAndBob
+import HackerHank.DiagonalDifference
 
 fun main(args: Array<String>) {
-    val impl = IMyInterfaceImpl()
-    val result = palidrome(impl, "neymar")
-    if (result){
-        println("A palavra eh palindrome")
-    }else{
-        println("A palavra nao eh palindrome")
-    }
+    diagonalDifferences()
 }
+
+
+private fun aliceAndBob(){
+    val aliceAndBob = AliceAndBob()
+    val a = arrayListOf(17,28,30)
+
+    val b = arrayListOf(99,16,8)
+
+    val result = aliceAndBob.compareTriplets(a, b)
+
+    println(result.joinToString(" "))
+
+}
+
+
+private fun diagonalDifferences(){
+    val n = readLine()!!.trim().toInt()
+
+    val arr = Array<Array<Int>>(n, { Array<Int>(n, { 0 }) })
+
+    for (i in 0 until n) {
+        arr[i] = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+    }
+
+    val diagonalDifference = DiagonalDifference()
+
+    val result = diagonalDifference.diagonalDifference(arr)
+
+    println(result)
+
+}
+
 
 private fun palidrome(impl: IMyInterfaceImpl, str:String) : Boolean{
     val apn = Palidolia(impl)
