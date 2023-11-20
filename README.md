@@ -1,6 +1,3 @@
-# programming-logic-exercises
-A repository that I use to solve programming logic exercises using the Kotlin language
-
-
-All the answers are separate by folders
+# Kotlin
+Esse repositório tem o intuito de mostrar práticas e servir como campo de estudo para desenvolvedores que querem entender mais sobre a linguagem
 
