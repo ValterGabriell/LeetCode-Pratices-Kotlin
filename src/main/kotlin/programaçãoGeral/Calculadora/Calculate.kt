@@ -1,4 +1,4 @@
-package Calculadora
+package programaçãoGeral.Calculadora
 
 class Calculate : Operations() {
     fun setOperator(operator: Int, x: Int, y: Int): Int {

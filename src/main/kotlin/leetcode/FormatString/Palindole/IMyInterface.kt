@@ -1,4 +1,4 @@
-package FormatString.Palindole
+package leetcode.FormatString.Palindole
 
 interface IMyInterface {
 

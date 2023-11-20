@@ -1,4 +1,4 @@
-package FormatString.Palindole
+package leetcode.FormatString.Palindole
 
 class IMyInterfaceImpl : IMyInterface {
     override fun isPalidrome(str: String): Boolean {

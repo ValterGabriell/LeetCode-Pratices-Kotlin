@@ -1,4 +1,4 @@
-package Calculadora
+package programaçãoGeral.Calculadora
 
 open class Operations {
     fun sum(x: Int, y: Int) = x + y

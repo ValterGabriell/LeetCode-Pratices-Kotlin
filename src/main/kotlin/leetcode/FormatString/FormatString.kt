@@ -1,4 +1,4 @@
-package FormatString
+package leetcode.FormatString
 
 class FormatString {
 

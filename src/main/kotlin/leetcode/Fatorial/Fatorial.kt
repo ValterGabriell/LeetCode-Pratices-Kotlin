@@ -1,4 +1,4 @@
-package Fatorial
+package leetcode.Fatorial
 
 class Fatorial {
 

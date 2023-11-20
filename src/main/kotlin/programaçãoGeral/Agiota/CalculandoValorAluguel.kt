@@ -1,4 +1,4 @@
-package Agiota
+package programaçãoGeral.Agiota
 
 class CalculandoValorAluguel {
 

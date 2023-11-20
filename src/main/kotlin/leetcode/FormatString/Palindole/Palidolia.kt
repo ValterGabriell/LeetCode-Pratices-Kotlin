@@ -1,4 +1,4 @@
-package FormatString.Palindole
+package leetcode.FormatString.Palindole
 
 class Palidolia(val impl: IMyInterfaceImpl) {
 
