@@ -1,0 +1,27 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+l
+<src/main/kotlin/leetcode/FormatString/Palindole/Palidolia.kt,c\e\ceb0005ae65986b79bdeda17ecccec1daf063093
+P
+ src/main/kotlin/nullable/Main.kt,7\b\7b324ef1b1b3c24021b0714d4cecb83490839e46
+o
+?src/main/kotlin/leetcode/FormatString/Palindole/IMyInterface.kt,a\4\a45a2585bf639267100df355eeffcbde88bf3e91
+V
+&src/main/kotlin/nullable/Biblioteca.kt,9\b\9b0e09d6128bb535717f20f551bcb78e101e00bb
+s
+Csrc/main/kotlin/leetcode/FormatString/Palindole/IMyInterfaceImpl.kt,5\3\536fa8c38bf06798c7352c9b1da52b40694b11b7
+e
+5src/main/kotlin/leetcode/FormatString/FormatString.kt,a\c\acd5f9bfa2c94fc2634df9c0c234c60e67f05a03
+k
+;src/main/kotlin/programaçãoGeral/Calculadora/Calculate.kt,6\e\6e0cec4a58d7fca4b9de1df52e97c98b52982eb5
+o
+?src/main/kotlin/programaçãoGeral/Calculadora/NumerosPrimos.kt,c\f\cfdd752771629ba7753451fd78fa61afeca8e916
+l
+<src/main/kotlin/programaçãoGeral/Calculadora/Operations.kt,2\d\2dd17e6c9ce90d713a10b4508c60c341b5bbe0fa
+]
+-src/main/kotlin/leetcode/Fatorial/Fatorial.kt,3\a\3ad502a37bbab9a4e662fe19fdd102857cf51eec
+s
+Csrc/main/kotlin/programaçãoGeral/Agiota/CalculandoValorAluguel.kt,f\d\fdb21804207a30e18d17ae0cb36ad105b401f886
+Y
+)src/main/kotlin/nullable/Biblioteca_.java,2\2\22e6af28360a973301cfc1fb344fd7e2d083948e
